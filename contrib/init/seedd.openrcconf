@@ -1,0 +1,26 @@
+# /etc/conf.d/seedd: config file for /etc/init.d/seedd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/seed/seed.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/seedd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/seedd.pid"
+
+# Where to write seedd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/seedd"
+
+# User and group to own seedd process
+#BITCOIND_USER="seed"
+#BITCOIND_GROUP="seed"
+
+# Path to seedd executable
+#BITCOIND_BIN="/usr/bin/seedd"
+
+# Nice value to run seedd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

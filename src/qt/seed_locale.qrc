@@ -1,0 +1,18 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="ca">locale/seed_ca.qm</file>
+        <file alias="da">locale/seed_da.qm</file>
+        <file alias="de">locale/seed_de.qm</file>
+        <file alias="en">locale/seed_en.qm</file>
+        <file alias="en_US">locale/seed_en_US.qm</file>
+        <file alias="es">locale/seed_es.qm</file>
+        <file alias="fr">locale/seed_fr.qm</file>
+        <file alias="it">locale/seed_it.qm</file>
+        <file alias="ja">locale/seed_ja.qm</file>
+        <file alias="pt">locale/seed_pt.qm</file>
+        <file alias="ro_RO">locale/seed_ro_RO.qm</file>
+        <file alias="ru">locale/seed_ru.qm</file>
+        <file alias="vn">locale/seed_vn.qm</file>
+        <file alias="zh_TW">locale/seed_zh_TW.qm</file>
+    </qresource>
+</RCC>

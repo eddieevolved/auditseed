@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Seed
+Comment=Seed P2P Cryptocurrency
+Exec=seed-qt %u
+Terminal=false
+Type=Application
+Icon=seed128
+MimeType=x-scheme-handler/seed;
+Categories=Office;Finance;
+Name[en_US]=Seed.desktop.desktop

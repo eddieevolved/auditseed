@@ -1,0 +1,26 @@
+[Unit]
+Description=SEED's distributed currency daemon
+After=network.target
+
+[Service]
+User=seed
+Group=seed
+
+Type=forking
+PIDFile=/var/lib/seedd/seedd.pid
+
+ExecStart=/usr/bin/seedd -daemon -pid=/var/lib/seedd/seedd.pid \
+          -conf=/etc/seed/seed.conf -datadir=/var/lib/seedd
+
+ExecStop=-/usr/bin/seed-cli -conf=/etc/seed/seed.conf \
+         -datadir=/var/lib/seedd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
